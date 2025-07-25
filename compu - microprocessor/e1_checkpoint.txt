@@ -1,0 +1,170 @@
+{
+  "metadata": {
+    "kernelspec": {
+      "name": "node_nteract",
+      "language": "javascript",
+      "display_name": "Node.js (nteract)"
+    },
+    "kernel_info": {
+      "name": "node_nteract"
+    },
+    "language_info": {
+      "name": "javascript",
+      "version": "8.2.1",
+      "mimetype": "application/javascript",
+      "file_extension": ".js"
+    },
+    "title": "WepSIM ",
+    "nteract": {
+      "version": "nteract-on-jupyter@2.0.0"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "source": "## mode",
+      "metadata": {}
+    },
+    {
+      "cell_type": "code",
+      "source": "ep",
+      "outputs": [],
+      "execution_count": 1,
+      "metadata": {
+        "name": "mode",
+        "type": "string",
+        "collapsed": false,
+        "deletable": false,
+        "editable": false
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": "## firmware",
+      "metadata": {}
+    },
+    {
+      "cell_type": "code",
+      "source": "la reg addr{\n\n    co=010001\n    nwords=2\n    reg = reg(25, 21), #(10101)\n    addr = address(63, 32)abs,\n\n    {\n        (T2, C0),                        \t\t\t\t# MAR <- PC\n        (Ta, R, BW=11, M1, C1, M2, C2),  \t\t\t\t# MBR <- MEM[MAR], PC <- PC + 4\n        (T1, LC, SelC = 10101, A0=1, B=1,C=0),  # reg <- MBR, salto a fetch\n    }\n}\n\nsc r1 r2 r3{\n\n\t  co=010010\n\t  nwords=1\n\t  r1 = reg(25, 21),  #(10101)\n\t  r2 = reg(20, 16),  #(10000)\n    r3 = reg (15, 11), #(01011)\n    help='MEM[addr] = r1'\n\n\t{\n\t\t(SelA = 01011, T9, C0),                             # MAR <- R3\n\t\t(SelA = 10101, T9, C1),                             # MBR <- R1  \n\t\t(Ta, W, BW=11, Td)                                  # MEM[MAR] <- MBR\n    (SelA = 01011, MB=10, SelCop=01010, MC=1, T6, C0)   # MAR <- R3 + 4\n    (SelA = 10000, T9, C1),                             # MBR <- R2\n    (Ta, W, BW=11, Td, A0=1, B=1,C=0)                   # MEM[MAR] <- MBR, salto a fetch\n    }\n\n}\n\nlc r1 r2 r3{\n\n    co=010011\n    nwords=1\n    r1 = reg(25, 21),  #(10101)\n\t  r2 = reg(20, 16),  #(10000)\n\t  r3 = reg(15, 11),  #(01011)\n\n    {\n        (SelA = 01011, T9, C0),                            # MAR <- R3\n        (Ta, R, BW=11, M1, C1)                             # MBR <- MEM[MAR]\n        (T1, LC, SelC = 10101)                             # R1 <- MBR\n        (SelA = 01011, MB=10, SelCop=01010, MC=1, T6, C0)  # MAR <- R3 + 4\n        (Ta, R, BW=11, M1, C1)                             # MBR <- MEM[MAR]\n        (T1, LC, SelC = 10000, A0=1, B=1,C=0)              # R2 <- MBR, salto a fetch                    \n    }\n\n}\n\naddc r1, r2, r3, r4{\n\n    co=010100\n    nwords=1\n    r1 = reg(25, 21),  #(10101)\n\t\tr2 = reg(20, 16),  #(10000)\n\t\tr3 = reg(15, 11),  #(01011)\n    r4 = reg(10, 6),   #(00110)\n\n    {\n        (SelA=10101, SelB=01011, SelCop=01010, MC, T6, LC, SelC=10101, SelP=11, M7, C7)   # r1 <- r1 + r3, SR <- r1\n        (SelA=10000, SelB=00110, SelCop=01010, MC, T6, LC, SelC=10000, A0=1, B=1,C=0)     # r2 <- r2 + r4, salto a fetch\n    }\n}\n\nmulc r1, r2, r3, r4{\n\n    co=010101\n    nwords=1\n    r1 = reg(25, 21),  #(10101)\n\tr2 = reg(20, 16),  #(10000)\n\tr3 = reg(15, 11),  #(01011)\n    r4 = reg(10, 6),   #(00110)\n\n    {\n        (SelA=10101, SelB=01011, SelCop=01100, MC, T6, C4)  # RT1 <- r1 * r3\n        (SelA=10000, SelB=00110, SelCop=01100, MC, T6, C5)  # RT2 <- r2 * r4\n        (MA, MB, SelCop=01011, MC, C6, SelP=11, M7, C7)     # RT3 <- RT1 - RT2, SR <- RT3\n        \n        (SelA=10101, SelB=00110, SelCop=01100, MC, T6, C4)  # RT1 <- r1 * r4\n        (SelA=10000, SelB=01011, SelCop=01100, MC, T6, C5)  # RT2 <- r2 * r3\n        (MA, MB, SelCop=01010, MC, T6, LC, SelC=10000)      # r2 <- RT1 + RT2\n\n        (T7, LC, SelC=10101, A0=1, B=1,C=0) \t\t\t\t\t\t\t\t# r1 <- RT3, salto a fetch\n    }\n}\n\nbeqc r1, r2, r3, r4 offset{\n\n    # if (r1 == r3) and (r2 == r4)\n    # pc <- pc + offset\n\n    co=110100\n    nwords=1\n    r1 = reg(25, 21),           #(10101)\n\t\tr2 = reg(20, 16),           #(10000)\n\t\tr3 = reg(15, 11),           #(01011)\n    r4 = reg(10, 6),            #(00110)\n    offset = address(5, 0)rel,  #(00000)\n\n    {\n        (T8, C1),                                                      # MBR <- SR\n        (SelA=10101, SelB=01011, SelCop=1011, MC, SelP=11, M7, C7),    # r1 - r3\n        (A0=0, B=1, C=110, MADDR=jump),                                # si SR.Z == 0 salta a (SR <- MBR) si el flag Z=0 -> resta != 0 -> no hago nada\n        (SelA=10000, SelB=00110, SelCop=1011, MC, SelP=11, M7, C7),    # r2 - r4\n        (A0=0, B=1, C=110, MADDR=jump),                                # si SR.Z == 0 salta a (SR <- MBR) si el flag Z=0 -> resta != 0 -> no hago nada\n                                                                       # si el flag Z=1 -> resta=0 -> sumo a pc la direccion (offset)\n        (T2, C4),                                                      # RT1 <- PC\n        (SE=1, Size=110, Offset=0, T3, C5),                            # RT2 <- IR(offset)\n        (MA, MB, SelCop=1010, MC, T6, C2),                             # PC <- RT1 + RT2\n        jump: (T1, C7, A0=1, B=1, C=0),                                # SR <- MBR, salto a fetch\n    }\n\n}\n\ncall addr{\n\n    # ra(R1) <- PC\n    # PC <- addr\n\n    co=100001,\n    addr = address(19,0)abs,\n\n    {\n        (T2, LC, SelC=1, MR)                  \t\t\t\t\t\t\t\t# ra[R1] <- PC\n        (SE=0, Size=10100, Offset=0, T3, C2, A0=1, B=1, C=0), # PC <- IR(addr), salto a fetch\n    }\n}\n\nret{\n\n    # PC <- ra(R1)\n\n    co=100010, \n    nwords=1,\n\n    {\n        (SelA=1, MR, T9, C2, A0=1, B=1, C=0),    # PC <- ra[R1], salto a fetch\n    }\n}\n\nhcf{\n\n    # PC <- 0x00\n    # SR <- 0x00\n\n    co=100011,\n    nwords=1,\n\n    {\n        (SelA=0, MR, T9, C2, C7, A0=1, B=1, C=0),   # PC Y SR <- 0, salto a fetch\n    }\n\n}\n\n\n\n\n\n\n\n\n\n\n",
+      "outputs": [],
+      "execution_count": 1,
+      "metadata": {
+        "name": "firmware",
+        "type": "string",
+        "collapsed": false,
+        "deletable": false,
+        "editable": false
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": "## assembly",
+      "metadata": {}
+    },
+    {
+      "cell_type": "code",
+      "source": "\n\n",
+      "outputs": [],
+      "execution_count": 1,
+      "metadata": {
+        "name": "assembly",
+        "type": "string",
+        "collapsed": false,
+        "deletable": false,
+        "editable": false
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": "## state_current",
+      "metadata": {}
+    },
+    {
+      "cell_type": "code",
+      "source": "{\n  \"time\": 1700945445771,\n  \"title\": \"clock 1 @ &#181;address 0\",\n  \"title_short\": \"clock 1,<br>&#181;add 0\",\n  \"content\": \"\"\n}",
+      "outputs": [],
+      "execution_count": 1,
+      "metadata": {
+        "name": "state_current",
+        "type": "object",
+        "collapsed": false,
+        "deletable": false,
+        "editable": false
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": "## state_history",
+      "metadata": {}
+    },
+    {
+      "cell_type": "code",
+      "source": "[]",
+      "outputs": [],
+      "execution_count": 1,
+      "metadata": {
+        "name": "state_history",
+        "type": "object",
+        "collapsed": false,
+        "deletable": false,
+        "editable": false
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": "## record",
+      "metadata": {}
+    },
+    {
+      "cell_type": "code",
+      "source": "[]",
+      "outputs": [],
+      "execution_count": 1,
+      "metadata": {
+        "name": "record",
+        "type": "object",
+        "collapsed": false,
+        "deletable": false,
+        "editable": false
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": "## tag",
+      "metadata": {}
+    },
+    {
+      "cell_type": "code",
+      "source": "25/11/2023, 21:50:35",
+      "outputs": [],
+      "execution_count": 1,
+      "metadata": {
+        "name": "tag",
+        "type": "string",
+        "collapsed": false,
+        "deletable": false,
+        "editable": false
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": "## notify",
+      "metadata": {}
+    },
+    {
+      "cell_type": "code",
+      "source": "true",
+      "outputs": [],
+      "execution_count": 1,
+      "metadata": {
+        "name": "notify",
+        "type": "boolean",
+        "collapsed": false,
+        "deletable": false,
+        "editable": false
+      }
+    }
+  ]
+}
