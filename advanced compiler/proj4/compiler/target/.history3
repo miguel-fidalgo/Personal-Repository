@@ -1,0 +1,10 @@
+1741800241809:run "val x:Int = 3; x==4"
+1741800272524:run "val x:Int = 3; x==4; 0"
+1741800402123:run "val x:Int = 3; x==4"
+1741806824022:run examples/valid_loop.scala
+1741806831860:exit
+1741842742925:run "def f(x: Int): Int = {\n    x + 1\n};\nf(1)\n"
+1741843748828:exit
+1741844055580:run "val arr = new Array[Int](5);\narr(2) = 7;\narr(2)"
+1741844400185:exit
+1741844702846:run "val arr = new Array[Int](4);\narr(0) = 3;\n0"

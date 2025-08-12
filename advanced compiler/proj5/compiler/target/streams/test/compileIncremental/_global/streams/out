@@ -1,0 +1,23 @@
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 0 products, 0 sources, 0 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/test/miniscala/test/ok/AllOKTests.scala, ${BASE}/test/miniscala/test/infrastructure/SandboxedTest.scala, ${BASE}/test/miniscala/test/infrastructure/CompilerTest.scala, ${BASE}/test/miniscala/test/infrastructure/CPSLowTest.scala, ${BASE}/test/miniscala/test/CPSValueRepresentation_Blackbox.scala, ${BASE}/test/miniscala/test/ok/ConditionalOKTests.scala, ${BASE}/test/miniscala/test/ok/LibraryOKTests.scala, ${BASE}/test/miniscala/test/ok/ConstructsOKTests.scala, ${BASE}/test/miniscala/test/infrastructure/CPSTest.scala, ${BASE}/test/miniscala/test/infrastructure/BasicTest.scala, ${BASE}/test/miniscala/test/CPSValueRepresentation_Whitebox.scala, ${BASE}/test/miniscala/test/ok/PrimitivesOKTests.scala, ${BASE}/test/miniscala/test/infrastructure/CPSHighTest.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(${BASE}/test/miniscala/test/infrastructure/CompilerTest.scala, ${BASE}/test/miniscala/test/infrastructure/BasicTest.scala, ${BASE}/test/miniscala/test/ok/PrimitivesOKTests.scala, ${BASE}/test/miniscala/test/infrastructure/CPSHighTest.scala, ${BASE}/test/miniscala/test/infrastructure/CPSTest.scala, ${BASE}/test/miniscala/test/ok/LibraryOKTests.scala, ${BASE}/test/miniscala/test/infrastructure/CPSLowTest.scala, ${BASE}/test/miniscala/test/ok/ConditionalOKTests.scala, ${BASE}/test/miniscala/test/ok/AllOKTests.scala, ${BASE}/test/miniscala/test/infrastructure/SandboxedTest.scala, ${BASE}/test/miniscala/test/CPSValueRepresentation_Blackbox.scala, ${BASE}/test/miniscala/test/ok/ConstructsOKTests.scala, ${BASE}/test/miniscala/test/CPSValueRepresentation_Whitebox.scala), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0mFull compilation, no sources in previous analysis.[0m
+[0m[[0m[0mdebug[0m] [0m[0mall 13 sources are invalidated[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: [0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all sources: number of invalidated sources > 50.0 percent of all sources[0m
+[0m[[0m[0mdebug[0m] [0m[0mcompilation cycle 1[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 13 Scala sources to /home/mfidalgo/cs352/proj5/compiler/target/scala-2.12/test-classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.10.4:compile for Scala 2.12.18[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 418bf03f for Scala compiler version 2.12.18[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-feature[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-deprecation[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-unchecked[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/mfidalgo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.18/scala-library-2.12.18.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/mfidalgo/cs352/proj5/compiler/target/scala-2.12/test-classes:/home/mfidalgo/cs352/proj5/compiler/target/scala-2.12/classes:/home/mfidalgo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/novocode/junit-interface/0.11/junit-interface-0.11.jar:/home/mfidalgo/.cache/coursier/v1/https/repo1.maven.org/maven2/junit/junit/4.11/junit-4.11.jar:/home/mfidalgo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar:/home/mfidalgo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 1.126508173 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mdone compiling[0m

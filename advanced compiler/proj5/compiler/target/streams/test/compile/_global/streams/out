@@ -1,0 +1,13 @@
+[0m[[0m[33mwarn[0m] [0m[0m/home/mfidalgo/cs352/proj5/compiler/test/miniscala/test/infrastructure/SandboxedTest.scala:26:27: class AccessController in package security is deprecated[0m
+[0m[[0m[33mwarn[0m] [0m[0m    val originalContext = AccessController.getContext[0m
+[0m[[0m[33mwarn[0m] [0m[0m                          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/mfidalgo/cs352/proj5/compiler/test/miniscala/test/infrastructure/SandboxedTest.scala:27:24: trait DomainCombiner in package security is deprecated[0m
+[0m[[0m[33mwarn[0m] [0m[0m    val combiner = new DomainCombiner {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/mfidalgo/cs352/proj5/compiler/test/miniscala/test/infrastructure/SandboxedTest.scala:33:22: class AccessControlContext in package security is deprecated[0m
+[0m[[0m[33mwarn[0m] [0m[0m    val cntext = new AccessControlContext(originalContext, combiner)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/mfidalgo/cs352/proj5/compiler/test/miniscala/test/infrastructure/SandboxedTest.scala:34:5: class AccessController in package security is deprecated[0m
+[0m[[0m[33mwarn[0m] [0m[0m    AccessController.doPrivileged(action, cntext)[0m
+[0m[[0m[33mwarn[0m] [0m[0m    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mfour warnings found[0m

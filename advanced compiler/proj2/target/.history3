@@ -1,0 +1,10 @@
+1738542421608:run examples/valid_loop.scala
+1738543631236:run "val dummy = x = x * x; y = y + 1"
+1741705655143:compile
+1741705664925:run "val 1 = 2; 4"
+1741705680312:run last Compile / run
+1741705694269:last Compile / run
+1741705698791:run "val 1 = 2; 4"
+1741705735514:run "val x = z; ++z"
+1741713366333:run "if (2 > 4) 1 + 4 else 4"
+1741714000547:exit

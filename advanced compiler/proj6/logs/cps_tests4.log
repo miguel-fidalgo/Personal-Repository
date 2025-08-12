@@ -1,0 +1,75 @@
+[info] welcome to sbt 1.10.5 (Eclipse Adoptium Java 17.0.13)
+[info] loading project definition from /home/mfidalgo/cs352/proj6/compiler/project
+[info] loading settings for project cmScala from build.sbt ...
+[info] set current project to CMScala-compiler (in build file:/home/mfidalgo/cs352/proj6/compiler/)
+[info] compiling 1 Scala source to /home/mfidalgo/cs352/proj6/compiler/target/scala-2.12/test-classes ...
+[info] done compiling
+[info] Test run started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testLibFunctions3 started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.test4_neutralEtc started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.test5_sumSquares started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testSideEffectingCondition started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testPrimitiveLogic3 started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testPrimitiveLogic4 started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testPrimitiveLogic5 started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testPrimitiveLogic6 started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testPrimitiveLogic7 started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testPrimitiveLogic8 started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testPrimitiveLogic9 started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.test1_addConst started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.test7_rightNeutral started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testLibLists10 started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testLibLists11 started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testLibLists12 started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testLibLists13 started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testConditional1 started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testConditional2 started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testConditional4 started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testLibStrings2 started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testLibStrings3 started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testLibLists1 started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testLibLists2 started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testLibLists3 started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testLibLists4 started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testLibLists5 started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testLibLists6 started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testLibLists7 started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testLibLists8 started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testLibLists9 started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testPrimitiveArithmetic1 started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testPrimitiveArithmetic2 started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testPrimitiveArithmetic3 started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testPrimitiveArithmetic4 started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testPrimitiveArithmetic5 started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testPrimitiveArithmetic6 started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testPrimitiveArithmetic7 started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testPrimitiveArithmetic8 started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testPrimitiveArithmetic9 started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testPrimitiveArithmetic10 started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testPrimitiveBlocks1 started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testPrimitiveBlocks2 started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testPrimitiveBlocks3 started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testPrimitiveBlocks4 started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testPrimitiveBlocks5 started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testPrimitiveBlocks7 started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testPrimitiveLogic10 started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testPrimitiveLogic11 started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testPrimitiveLogic12 started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testPrimitiveLogic13 started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testPrimitiveLogic14 started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testPrimitiveLogic15 started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testPrimitiveLogic16 started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testPrimitiveLogic17 started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testPrimitiveLogic18 started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testPrimitiveLogic19 started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testPrimitiveLogic22 started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testPrimitiveLogic23 started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testPrimitiveLogic24 started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.test8_leftAbsorbing started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testPrimitiveLog20 started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testPrimitiveLog21 started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testLetrec started
+[info] Test miniscala.test.CPSOptimizer_Blackbox.testAppOrder started
+[info] Test run finished: 0 failed, 0 ignored, 65 total, 2.027s
+[info] Passed: Total 65, Failed 0, Errors 0, Passed 65
+[success] Total time: 7 s, completed Apr 6, 2025, 11:50:33 PM

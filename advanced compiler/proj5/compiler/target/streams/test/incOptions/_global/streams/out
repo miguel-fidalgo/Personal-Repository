@@ -1,0 +1,26 @@
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /home/mfidalgo/cs352/proj5/compiler/target/scala-2.12/test-classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /home/mfidalgo/cs352/proj5/compiler/target/scala-2.12/test-classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SandboxedTest$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AllOKTests.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BasicTest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PrimitivesOKTests.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ConditionalOKTests.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CPSTest$CPSVariableRenamePhase$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CPSLowTest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CPSValueRepresentation_Whitebox.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CompilerTest$TreeToString.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SandboxedTest$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LibraryOKTests.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CompilerTest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CPSTest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CPSLowTest$CPSHoistChecker$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ConstructsOKTests.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SandboxedTest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CPSHighTest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CPSValueRepresentation_Blackbox.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /home/mfidalgo/cs352/proj5/compiler/target/scala-2.12/test-classes.bak[0m

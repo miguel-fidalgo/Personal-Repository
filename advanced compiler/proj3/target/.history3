@@ -1,0 +1,46 @@
+1741714101480:compile
+1741714123563:run "if(2>4)1+2 else 9"
+1741749376648:cd ..
+1741749377671:exit
+1741749471536:run "if(2>4)1+2 else 9"
+1741749643107:run "var x = 2;\nvar y = 0;\nwhile (y < 5) {\nval dummy = x = x * x;\ny = y + 1\n};\nx"
+1741750969454:run examples/valid_loop.scala
+1741751041571:run examples/sugared_branch.scala
+1741751165408:run examples/valid_loop.scala
+1741798396798:run "val x=3; x"
+1741798512792:run "val x='a';0"
+1741798527588:run "val x="a"; 0"
+1741798562388:run "val x=a; 0"
+1741798585958:run "val x = True; 0"
+1741798615263:run "val x = true; 0"
+1741798787072:run "val x[Bool] = true; 0"
+1741798940525:run "val x[Boolean] = true; 0"
+1741798956172:run "val x[Int] = 1e; 0"
+1741798958828:run "val x[Int] = 1; 0"
+1741798994244:run "val x:Int = 1; 0"
+1741799009868:run "val x:Int = 1; 0:Int"
+1741799031473:run "val x:Boolean = 1; 0"
+1741799073587:run "val x:Int = 1; false"
+1741799104780:run "val x: Boolean = false; 0"
+1741799145504:run "2+3"
+1741799181320:run "1==3"
+1741799203897:run "val x = 2==3; 1"
+1741799235522:run "val x:Int = 2==3; 1"
+1741799239300:run "val x:Bool = 2==3; 1"
+1741799242333:run "val x:Boolean = 2==3; 1"
+1741799469073:run "val x:Int = 3; x==4"
+1741799499126:run "val x:Int = 3; x==4; 0"
+1741799844051:run "val x:Int = 3; x==4"
+1741800221288:exit
+1741806850147:run examples/valid_loop.scala
+1741807889091:run examples/valid_branch.scala
+1741841592030:run examples/function.scala
+1741842506609:run examples/function2.scala
+1741842514199:run examples/function_2.scala
+1741842713534:exit
+1741843870553:run examples/array.scala
+1741843995585:run examples/array_2.scala
+1741844029916:run examples/array_3.scala
+1741844045238:exit
+1741844411424:run examples/array.scala
+1741844691700:exit

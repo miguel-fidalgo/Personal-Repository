@@ -1,0 +1,8 @@
+grant {
+  // We're granting all permisions here, pending restriction in sandboxedTest
+  permission java.security.AllPermission;
+  // Allow SBT launcher to read its own properties:
+  permission java.util.PropertyPermission "sbt.launcher.standby", "read";
+  // Allow Scala reflection to read its classtag cache disable property:
+  permission java.util.PropertyPermission "scala.reflect.classtag.cache.disable", "read";
+};

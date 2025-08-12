@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="LAPTOP-MIGUEL" name="miniscala.test.CPSValueRepresentation_Whitebox" tests="11" errors="0" failures="0" skipped="0" time="0.33" timestamp="2025-03-12T03:17:24">
+          <properties>
+      <property name="java.specification.version" value="17"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="sun.arch.data.model" value="64"/><property name="java.vendor.url" value="https://adoptium.net/"/><property name="sun.boot.library.path" value="/home/mfidalgo/.sdkman/candidates/java/17.0.13-tem/lib"/><property name="sun.java.command" value="/home/mfidalgo/.sdkman/candidates/sbt/1.10.5/bin/sbt-launch.jar"/><property name="jdk.debug" value="release"/><property name="sun.stderr.encoding" value="UTF-8"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="java.version.date" value="2024-10-15"/><property name="java.home" value="/home/mfidalgo/.sdkman/candidates/java/17.0.13-tem"/><property name="file.separator" value="/"/><property name="java.vm.compressedOopsMode" value="32-bit"/><property name="line.separator" value="
+"/><property name="sun.stdout.encoding" value="UTF-8"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="java.runtime.version" value="17.0.13+11"/><property name="user.name" value="mfidalgo"/><property name="log4j.ignoreTCL" value="true"/><property name="file.encoding" value="UTF-8"/><property name="jnidispatch.path" value="/home/mfidalgo/.cache/JNA/temp/jna8780305859995945153.tmp"/><property name="java.vendor.version" value="Temurin-17.0.13+11"/><property name="jna.loaded" value="true"/><property name="java.io.tmpdir" value="/tmp"/><property name="java.version" value="17.0.13"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="native.encoding" value="UTF-8"/><property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/><property name="java.vendor" value="Eclipse Adoptium"/><property name="java.specification.maintenance.version" value="1"/><property name="scala.ext.dirs" value="/home/mfidalgo/.sbt/1.0/java9-rt-ext-eclipse_adoptium_17_0_13"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="java.class.path" value="/home/mfidalgo/.sdkman/candidates/sbt/1.10.5/bin/sbt-launch.jar"/><property name="java.vm.vendor" value="Eclipse Adoptium"/><property name="jline.shutdownhook" value="false"/><property name="user.timezone" value="Etc/UTC"/><property name="java.vm.specification.version" value="17"/><property name="os.name" value="Linux"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.cpu.endian" value="little"/><property name="user.home" value="/home/mfidalgo"/><property name="user.language" value="en"/><property name="sbt.script" value="/home/mfidalgo/.sdkman/candidates/sbt/current/bin/sbt"/><property name="sbt.ipcsocket.tmpdir" value="/run/user/1000/.sbt6d5c8329/ipcsocket"/><property name="swoval.tmpdir" value="/run/user/1000/.sbt6d5c8329/swoval"/><property name="jline.esc.timeout" value="0"/><property name="path.separator" value=":"/><property name="os.version" value="5.15.167.4-microsoft-standard-WSL2"/><property name="jna.nosys" value="true"/><property name="java.runtime.name" value="OpenJDK Runtime Environment"/><property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/><property name="jna.platform.library.path" value="/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/usr/lib64:/lib64:/usr/lib:/lib:/usr/lib/x86_64-linux-gnu/libfakeroot:/usr/lib/wsl/lib"/><property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/><property name="user.dir" value="/home/mfidalgo/cs352/proj5/compiler"/><property name="os.arch" value="amd64"/><property name="java.vm.info" value="mixed mode, sharing"/><property name="java.vm.version" value="17.0.13+11"/><property name="java.class.version" value="61.0"/>
+    </properties>
+          <testcase classname="miniscala.test.CPSValueRepresentation_Whitebox" name="testValueReprOr" time="0.248">
+                      
+                    </testcase><testcase classname="miniscala.test.CPSValueRepresentation_Whitebox" name="testValueRprThreeTimesFour" time="0.013">
+                      
+                    </testcase><testcase classname="miniscala.test.CPSValueRepresentation_Whitebox" name="testValueReprAnd" time="0.007">
+                      
+                    </testcase><testcase classname="miniscala.test.CPSValueRepresentation_Whitebox" name="testValueReprXor" time="0.006">
+                      
+                    </testcase><testcase classname="miniscala.test.CPSValueRepresentation_Whitebox" name="testValueRprFourDivTwo" time="0.008">
+                      
+                    </testcase><testcase classname="miniscala.test.CPSValueRepresentation_Whitebox" name="testValueRprFourModTwo" time="0.007">
+                      
+                    </testcase><testcase classname="miniscala.test.CPSValueRepresentation_Whitebox" name="testValueReprOnePlusTwo" time="0.005">
+                      
+                    </testcase><testcase classname="miniscala.test.CPSValueRepresentation_Whitebox" name="testValueReprSixMinusThree" time="0.013">
+                      
+                    </testcase><testcase classname="miniscala.test.CPSValueRepresentation_Whitebox" name="testValueReprShiftLeft" time="0.006">
+                      
+                    </testcase><testcase classname="miniscala.test.CPSValueRepresentation_Whitebox" name="testValueReprCharToInt" time="0.01">
+                      
+                    </testcase><testcase classname="miniscala.test.CPSValueRepresentation_Whitebox" name="testValueReprShiftRight" time="0.007">
+                      
+                    </testcase>
+          <system-out><![CDATA[]]></system-out>
+          <system-err><![CDATA[]]></system-err>
+        </testsuite>

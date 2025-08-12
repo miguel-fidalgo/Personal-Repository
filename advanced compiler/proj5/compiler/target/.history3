@@ -1,0 +1,3 @@
+1741749425533:test
+1741749455075:exit
+1741886731415:run "var x = 2;\nvar y = 0;\nwhile (y < 3) {\n  val x = x * x;\n  y = y + 1\n};\nx"
