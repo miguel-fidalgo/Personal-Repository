@@ -28,10 +28,10 @@ well-structured software, always aiming to understand the systems I work with in
 </p>
 
 ## Highlighted Projects
-- [Advanced scala compiler] (https://github.com/miguel-fidalgo/Personal-Repository/tree/e72c600f9beae4c12c3d0cb8c2cc0c4888aec70e/advanced%20compiler)
-- [Computer networks program] (https://github.com/miguel-fidalgo/Personal-Repository/tree/e72c600f9beae4c12c3d0cb8c2cc0c4888aec70e/computer%20networks%20program)
-- [Mini shell] (https://github.com/miguel-fidalgo/Personal-Repository/tree/e72c600f9beae4c12c3d0cb8c2cc0c4888aec70e/so%20-%20minishell)
-- [1942 game] (https://github.com/miguel-fidalgo/Personal-Repository/tree/e72c600f9beae4c12c3d0cb8c2cc0c4888aec70e/1942-game)
+- [Advanced scala compiler](https://github.com/miguel-fidalgo/Personal-Repository/tree/e72c600f9beae4c12c3d0cb8c2cc0c4888aec70e/advanced%20compiler)
+- [Computer networks program](https://github.com/miguel-fidalgo/Personal-Repository/tree/e72c600f9beae4c12c3d0cb8c2cc0c4888aec70e/computer%20networks%20program)
+- [Mini shell](https://github.com/miguel-fidalgo/Personal-Repository/tree/e72c600f9beae4c12c3d0cb8c2cc0c4888aec70e/so%20-%20minishell)
+- [1942 game](https://github.com/miguel-fidalgo/Personal-Repository/tree/e72c600f9beae4c12c3d0cb8c2cc0c4888aec70e/1942-game)
 
 ## Contact
 - Website: qrsume.com/miguelfidalgo
