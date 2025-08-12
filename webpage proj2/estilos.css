@@ -1,0 +1,296 @@
+/* style.css */
+
+/* Global styles */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    margin: 0;
+    padding: 1.5rem 0;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Main navigation menu */
+.main-menu {
+    text-align: center;
+    background-color: #444;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+}
+.main-menu a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+}
+.main-menu a:hover {
+    color: #ddd;
+}
+
+/* A “container” class to center content and add spacing */
+.container {
+    max-width: 85vw;
+    margin: 2rem auto;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Basic table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+
+thead {
+    background-color: #009879;
+    color: #ffffff;
+}
+
+thead th {
+    padding: 0.75rem;
+    text-align: left;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f3f3f3; /* row striping */
+}
+
+tbody tr:hover {
+    background-color: #e1f7e7; /* hover effect */
+}
+
+td, th {
+    padding: 0.75rem;
+    border: 1px solid #dddddd;
+}
+
+tfoot td {
+    text-align: center;
+    font-style: italic;
+    padding: 0.75rem;
+    border-top: 2px solid #009879;
+    background-color: #fafafa;
+}
+
+/* Form styling */
+.container form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.container fieldset {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.container legend {
+    padding: 0 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #009879;  /* accent color */
+}
+
+/* Each label-input pair as a .form-group */
+.form-group {
+    margin-bottom: 1rem;
+}
+
+/* Labels above inputs for clarity */
+.form-group label {
+    display: block;
+    margin-bottom: 0.4rem;
+    font-weight: bold;
+}
+
+/* Text inputs */
+.form-group input[type="text"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.form-group input[type="text"]:focus,
+.form-group input[type="password"]:focus {
+    border-color: #999;
+}
+
+/* Submit button */
+.form-group input[type="submit"] {
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #009879; /* accent color */
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #008368; /* slightly darker on hover */
+}
+
+/* Error or status message styling */
+.form-message {
+    color: #0000ff;
+    font-weight: bold;
+    margin-top: -0.5rem;
+    margin-bottom: 1rem;
+}
+
+.btn-edit {
+    color: #fff;
+    background-color: #6c757d; /* subdued grayish */
+    padding: 4px 8px;
+    margin-right: 4px;
+    text-decoration: none;
+    border-radius: 4px;
+    display: inline-block;   /* ensures consistent “button” shape */
+    font-size: 0.85rem;      /* slightly smaller text */
+}
+
+.btn-edit:hover {
+    background-color: #5a6268; /* slightly darker on hover */
+    text-decoration: none;
+}
+
+.btn-delete {
+    color: #fff;
+    background-color: #9e4444; /* a more muted red */
+    padding: 4px 8px;
+    text-decoration: none;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 0.85rem;
+}
+
+.btn-delete:hover {
+    background-color: #803535; /* slightly darker on hover */
+    text-decoration: none;
+}
+
+/* Make select inputs look consistent with text inputs */
+.form-group select {
+    width: 100%;
+    padding: 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: 1rem;
+    background-color: #fff;
+    appearance: none; /* Remove default OS-specific styles */
+}
+.form-group select:focus {
+    border-color: #999;
+    outline: none;
+}
+
+.form-group input[type="radio"] {
+    margin-right: 0.5rem;
+    margin-bottom: 0.4rem;
+}
+
+.date-group {
+    display: flex;
+    gap: 1rem; /* space between select elements */
+}
+
+.date-group select {
+    flex: 1;
+    padding: 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: #fff;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+    position: relative;
+    padding-bottom: 3px;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Add the underline effect */
+.nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background-color: grey;
+    transition: width 0.3s ease-in-out;
+}
+
+/* Expand the bar on hover */
+.nav-link:hover::after {
+    width: 100%;
+}
+
+.text-container {
+    max-width: 600px;
+    margin: 4rem auto;
+    background-color: rgba(255, 255, 255, 0.9); /* semi-transparent white */
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.background-container {
+    min-height: 80vh;
+    background-image: url("Library.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ───────────────  user box in top-right corner  ─────────────── */
+.main-menu {                 /* already dark + centred; add relative-pos */
+    position: relative;
+}
+
+/* floats to the right while nav links stay centred */
+.user-info {
+    position: absolute;
+    right: 1.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 0.9rem;
+    color: #c7e0c5;          /* pale green like your accent */
+    white-space: nowrap;
+}
+
+/* subtle underline on hover only */
+.logout-link {
+    margin-left: 4px;
+    color: #c7e0c5;
+    text-decoration: none;
+    font-style: italic;
+    font-size: 0.9rem;
+}
+.logout-link:hover { text-decoration: underline; }
