@@ -21,7 +21,7 @@ Explore my repositories to see hands-on projects, and visit my [**personal websi
 <img align="left" alt="Linux" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"/>
 <img align="left" alt="GitHub" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"/>
 <img align="left" alt="Git" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"/>
-<br/>
+
 
 **Core Competencies:**  
 Adaptability • Problem-Solving • Leadership skills • Low-Level Programming • Compiler Design • Database Design • Web Development • Multithreading • Time Management • Teamwork
