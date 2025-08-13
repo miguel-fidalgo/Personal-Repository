@@ -5,8 +5,6 @@ I’m passionate about building **efficient, well-structured software** and unde
 
 Explore my repositories to see hands-on projects, and visit my [**personal website**](https://qrsume.com/miguelfidalgo) for in-depth articles breaking down each one, from the challenges I faced to the solutions I implemented.
 
----
-
 ## Skills
 
 <img align="left" alt="Python" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"/>
@@ -22,11 +20,10 @@ Explore my repositories to see hands-on projects, and visit my [**personal websi
 <img align="left" alt="GitHub" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"/>
 <img align="left" alt="Git" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"/>
 
+<div style="clear: both;"></div>
 
 **Core Competencies:**  
 Adaptability • Problem-Solving • Leadership skills • Low-Level Programming • Compiler Design • Database Design • Web Development • Multithreading • Time Management • Teamwork
-
----
 
 ## Statistics
 <p>
@@ -35,8 +32,6 @@ Adaptability • Problem-Solving • Leadership skills • Low-Level Programming
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=miguel-fidalgo&layout=compact&theme=onedark" width="35%" />
 </p>
 
----
-
 ## Highlighted Projects
 - **[Advanced Scala Compiler](https://github.com/miguel-fidalgo/Personal-Repository/tree/e72c600f9beae4c12c3d0cb8c2cc0c4888aec70e/advanced%20compiler)** – Full compiler in Scala covering front-end parsing to back-end code generation.  
 - **[Computer Networks Program](https://github.com/miguel-fidalgo/Personal-Repository/tree/e72c600f9beae4c12c3d0cb8c2cc0c4888aec70e/computer%20networks%20program)** – C-based packet parser for analyzing Ethernet, IPv4, TCP, UDP traffic.  
@@ -44,8 +39,6 @@ Adaptability • Problem-Solving • Leadership skills • Low-Level Programming
 - **[Database Design & Implementation](https://github.com/miguel-fidalgo/Personal-Repository/tree/e57aaddf65a301e8da0d05013c4f09706a8d157c/bbdd%20-%20sql)** – Migration from an old database to a new, well-structured and standardized relational model.
 - **[Full-Stack Web Application](https://github.com/miguel-fidalgo/Personal-Repository/tree/e57aaddf65a301e8da0d05013c4f09706a8d157c/webpage%20proj2)** – Secure, multi-user system where users could register, authenticate, and manage their personal billing and shipping addresses.
 - **[1942 Game](https://github.com/miguel-fidalgo/Personal-Repository/tree/e72c600f9beae4c12c3d0cb8c2cc0c4888aec70e/1942-game)** – Arcade-style shooter built in Python with Pyxel.
-
----
 
 ## Contact
 - **🌐 Website:** [Miguel Fidalgo Garcia](https://qrsume.com/miguelfidalgo)  
