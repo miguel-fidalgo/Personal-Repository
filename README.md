@@ -6,20 +6,31 @@ embedded systems, using languages like Python, C, Scala, SQL, and RISC-V. I enjo
 well-structured software, always aiming to understand the systems I work with in depth.
 
 ## Skills
-<div style="display: flex; align-items: center; gap: 20px;">
-    <img alt="Python" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-    <img alt="C" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
-    <img alt="Java" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
-    <img alt="Scala" width="30px" src="https://github.com/devicons/devicon/blob/v2.17.0/icons/scala/scala-original-wordmark.svg" />
-    <img alt="RISC-V" width="67px" src="https://upload.wikimedia.org/wikipedia/commons/9/9a/RISC-V-logo.svg" />
-    <img alt="x86-64" width="30px" src="https://upload.wikimedia.org/wikipedia/commons/1/1a/AMD64_Logo.svg" />
-    <img alt="SQL" width="40px" src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Sql_data_base_with_logo.svg" />
-    <img alt="PHP" width="30px" src="https://github.com/devicons/devicon/blob/v2.17.0/icons/php/php-original.svg" />
-    <img alt="R" width="30px" src="https://github.com/devicons/devicon/blob/v2.17.0/icons/r/r-original.svg" />
-    <img alt="Linux" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" />
-    <img alt="GitHub" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-    <img alt="Git" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
-</div>
+<img align="left" alt="Python" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"/>
+<img align="left" alt="C" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
+<img align="left" alt="Java" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
+<img align="left" alt="Scala" width="30px" style="padding-right:10px;" src="https://github.com/devicons/devicon/blob/v2.17.0/icons/scala/scala-original-wordmark.svg" />
+<img 
+    align="left"
+    alt="RISC-V" 
+    width="70px" 
+    style="padding: 10px; vertical-align: middle;" 
+    src="https://upload.wikimedia.org/wikipedia/commons/9/9a/RISC-V-logo.svg" 
+/>
+<img align="left" alt="x86-64" width="30px" style="padding-right:10px;" src="https://upload.wikimedia.org/wikipedia/commons/1/1a/AMD64_Logo.svg" />
+<img 
+    align="left"
+    alt="SQL" 
+    width="40px" 
+    style="padding: 10px; vertical-align: middle;" 
+    src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Sql_data_base_with_logo.svg" 
+/>
+<img align="left" alt="PHP" width="30px" style="padding-right:10px;" src="https://github.com/devicons/devicon/blob/v2.17.0/icons/php/php-original.svg" />
+<img align="left" alt="R" width="30px" style="padding-right:10px;" src="https://github.com/devicons/devicon/blob/v2.17.0/icons/r/r-original.svg" />
+<img align="left" alt="Linux" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" />
+<img align="left" alt="GitHub" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+<img align="left" alt="Git" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
+<br />
 
 ## Statistics
 <p>
