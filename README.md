@@ -3,7 +3,7 @@ I’m Miguel Fidalgo, a Computer Engineer and Software Developer from Madrid, cu
 My experience spans **compilers, operating systems, web development, data structures, and embedded systems**, working with languages such as **Python, C, Scala, SQL, PHP, R, RISC-V, and x86-64 assembly**.  
 I’m passionate about building **efficient, well-structured software** and understanding systems in depth, from high-level architecture down to low-level execution.
 
-Explore my repositories to see hands-on projects, and visit my [**personal website**](qrsume.com/miguelfidalgo) for in-depth articles breaking down each one, from the challenges I faced to the solutions I implemented.
+Explore my repositories to see hands-on projects, and visit my [**personal website**](https://qrsume.com/miguelfidalgo) for in-depth articles breaking down each one, from the challenges I faced to the solutions I implemented.
 
 ---
 
@@ -47,6 +47,6 @@ Adaptability • Problem-Solving • Leadership skills • Low-Level Programming
 
 ---
 
-## 📬 Contact
-- **🌐 Website:** [Miguel Fidalgo Garcia](qrsume.com/miguelfidalgo)  
+## Contact
+- **🌐 Website:** [Miguel Fidalgo Garcia](https://qrsume.com/miguelfidalgo)  
 - **💼 LinkedIn:** [Miguel Fidalgo Garcia](https://www.linkedin.com/in/miguel-fidalgo-3594761a6/)  
